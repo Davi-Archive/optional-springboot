@@ -2,9 +2,9 @@ package com.optional.model;
 
 public class Caminhao {
     private String modelo;
-    private String seguro;
+    private Seguro seguro;
 
-    public Caminhao(String modelo, String seguro) {
+    public Caminhao(String modelo, Seguro seguro) {
         this.modelo = modelo;
         this.seguro = seguro;
     }
@@ -17,11 +17,11 @@ public class Caminhao {
         this.modelo = modelo;
     }
 
-    public String getSeguro() {
+    public Seguro getSeguro() {
         return seguro;
     }
 
-    public void setSeguro(String seguro) {
+    public void setSeguro(Seguro seguro) {
         this.seguro = seguro;
     }
 }
